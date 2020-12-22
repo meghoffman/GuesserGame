@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    
+  }
+  
+  button {
+    cursor: pointer;
+    margin: 10px 0 10px 0;
+    width: 90px;
+    height: 30px;
+    background-color: black;
+    color: white;
+  }
+  
+  h1 {
+    font-family: monospace;
+    font-size: 55px;
+  }
+  
+  #lose {
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  }
+  
+  #win{
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body id = "colors">
+    <h1>Color Guesser</h1>
+    <p>Guess what color the background will display.</p>
+    <p>Write the answer in the box and click the button!<br>  Click Try Again to refresh and play again.</p>
+    <h5>Choices: <br>red, blue, green, yellow, orange, purple, brown, pink</h5>
+    <input type = "text" id = "text" placeholder="Make Choice"></input><br>
+    <button id = "button" onclick = "guesser(this)">Guess</button>
+    <button id="reload">Try Again</button>
+    <div id="win"></div>
+    <div id="lose"></div>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
